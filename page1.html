@@ -1,0 +1,56 @@
+<!-- page1.html -->
+<!-- Set the title and content for Page 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="pages.css">
+</head>
+
+<style>
+
+
+    p {
+        text-align: left;
+    }
+
+    .poem {
+        margin-top: 40px;
+    }
+
+    .lower-right-image {
+        width: 100px;
+    }
+
+    
+    @media (max-width: 768px) {
+        p {
+            font-size: 10px;
+        }
+
+    }
+</style>
+<body>
+
+<div class="container">
+    <div class="paper" id="paper">
+        <div class="poem">
+        <p>In the gentle curve of her lips</p>
+        <p>A magic that softly grips</p>
+        <p>a sunbeam unfurled</p>
+        <p>Lights up the darkest world.</p>
+<br>
+        <p>Warmth and joy in every trace,</p>
+        <p>A radiant, sweet embrace.</p>
+        <p>With each grin, happiness springs,</p>
+        <p>Her smile, the heart's own wings.</p>
+        </div>
+    </div>
+    <button onclick="redirectToNewWebsite('page2.html')">Next</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
